@@ -22,3 +22,6 @@ chmod +x scripts/task*
 ```
 
 The results will be put in the `resuts/` folders.
+
+### Semi-supervised learning setting
+For the semi-supervised learning experiment, please refer to the instruction in the `semiSL` folder
