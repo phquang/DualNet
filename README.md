@@ -16,7 +16,7 @@ Follow the instructions in the `data/` folders to prepare the benchmarks.
 ### 2. Run experiments
 To replicate our results on the task aware and task free settings, run
 ```
-chmod +x scripts/task*
+chmod +x scripts/*
 ./scripts/task_aware.sh
 ./scripts/task_free.sh
 ```
@@ -24,4 +24,8 @@ chmod +x scripts/task*
 The results will be put in the `resuts/` folders.
 
 ### Semi-supervised learning setting
-For the semi-supervised learning experiment, please refer to the instruction in the `semiSL` folder
+For the semi-supervised learning experiment, run
+```
+./scripts/semi.sh --rho 0.1
+```
+The parameter `rho` indicates the percentage of data that are labeled (e.g. 10% or 25%).
