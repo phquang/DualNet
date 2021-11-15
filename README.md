@@ -24,8 +24,9 @@ chmod +x scripts/*
 The results will be put in the `resuts/` folders.
 
 ### Semi-supervised learning setting
-For the semi-supervised learning experiment, run
+For the semi-supervised continual learning experiments, run
 ```
 ./scripts/semi.sh --rho 0.1
+./scripts/semi.sh --rho 0.25
 ```
 The parameter `rho` indicates the percentage of data that are labeled (e.g. 10% or 25%).
