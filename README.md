@@ -11,7 +11,7 @@ DualNet proposes a novel continual learning framework for (online) continual lea
 
 # Benchmarks
 ### 1. Prepare data
-Follow the instructions in the `data/` folders to prepare the benchmarks.
+The `data/` folders contains the train and test splits for the miniImageNet and CORE50 benchmarks. Download the raw data and modify the path in the `csv` files to point to the raw data folder.
 
 ### 2. Run experiments
 To replicate our results on the task aware and task free settings, run
