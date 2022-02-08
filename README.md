@@ -8,6 +8,8 @@ This project contains the implementation of the following NeurIPS 2021 paper:
 
 DualNet proposes a novel continual learning framework for (online) continual learning where a slow network gradually accumulates knowledge to improves its general representation over time and a fast network utilizes the slow representation to quickly learn new information.
 
+![DualNet](dualnet.png)
+
 # Requirements
 - python 3.7.3
 - pytorch >= 1.8
