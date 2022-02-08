@@ -1,6 +1,11 @@
-# DualNet
+# DualNet: Continual Learning, Fast and Slow
 
-This project contains the implementation of the paper: DualNet: Continual Learning, Fast and Slow (NeurIPS 2021). 
+This project contains the implementation of the following NeurIPS 2021 paper: 
+
+**Title:** DualNet: Continual Learning, Fast and Slow (NeurIPS 2021). 
+
+**Authors:** [Quang Pham](https://sites.google.com/view/quangpham93), [Chenghao Liu](https://sites.google.com/view/liuchenghao/home), and [Steven Hoi](https://sites.google.com/view/stevenhoi/home)
+
 DualNet proposes a novel continual learning framework for (online) continual learning where a slow network gradually accumulates knowledge to improves its general representation over time and a fast network utilizes the slow representation to quickly learn new information.
 
 # Requirements
@@ -30,3 +35,15 @@ For the semi-supervised continual learning experiments, run
 ./scripts/semi.sh --rho 0.25
 ```
 The parameter `rho` indicates the percentage of data that are labeled (e.g. 10% or 25%).
+
+# Citation
+If you found DualNet useful for your research, please consider citing.
+```
+@article{pham2021dualnet,
+  title={DualNet: Continual Learning, Fast and Slow},
+  author={Pham, Quang and Liu, Chenghao and Hoi, Steven},
+  journal={Advances in Neural Information Processing Systems},
+  volume={34},
+  year={2021}
+}
+```
