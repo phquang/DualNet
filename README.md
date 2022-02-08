@@ -2,7 +2,7 @@
 
 This project contains the implementation of the following NeurIPS 2021 paper: 
 
-**Title:** DualNet: Continual Learning, Fast and Slow (NeurIPS 2021). 
+**Title:** DualNet: Continual Learning, Fast and Slow (NeurIPS 2021), [openreview](https://openreview.net/forum?id=eQ7Kh-QeWnO), [pdf](https://proceedings.neurips.cc/paper/2021/file/86a1fa88adb5c33bd7a68ac2f9f3f96b-Paper.pdf). 
 
 **Authors:** [Quang Pham](https://sites.google.com/view/quangpham93), [Chenghao Liu](https://sites.google.com/view/liuchenghao/home), and [Steven Hoi](https://sites.google.com/view/stevenhoi/home)
 
